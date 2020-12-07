@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Shooter extends GameElement {
 
 	public static final int UNIT_MOVE = 10;
-	public static final int MAX_BULLETS = 3;
+	public int MAX_BULLETS = 3;
 
 	private ArrayList<GameElement> components = new ArrayList<>();
 	private ArrayList<GameElement> weapons = new ArrayList<>();
@@ -72,6 +72,10 @@ public class Shooter extends GameElement {
 			w.animate();
 		}
 
+	}
+
+	public ArrayList<GameElement> getComponents() {
+		return components;
 	}
 	
 }

@@ -6,6 +6,7 @@ import java.util.Queue;
 
 import model.Bullet;
 import model.Shooter;
+import model.EnemyComposite.Event;
 import view.GameBoard;
 
 import java.awt.event.ActionEvent;
